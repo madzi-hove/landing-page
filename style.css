@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap");
+
+:root {
+	--deep-blue: #1f2937;
+	--bright-blue: #3882f6;
+	--white: #f9faf8;
+	--light-grey: #e5e7eb;
+}
+
+body {
+	color: var(--white);
+	font-family: "Roboto", sans-serif;
+	/* height: 100vh; */
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 32px 0;
+}
+
+#hero,
+#footer {
+	background-color: var(--deep-blue);
+}
+
+.hero-heading,
+.info-heading {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.container__item {
+	flex: 1;
+	padding: 64px 0;
+	border: 2px solid blue;
+}
+
+.inner-container {
+	width: 65vw;
+	margin: 0 auto;
+}
+
+.hero-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-logo {
+	font-size: 24px;
+}
+
+.nav-link {
+	color: var(--white);
+	margin: 0 16px;
+	text-decoration: none;
+}
+
+.content__item {
+	flex: 1;
+}
+
+.hero-content {
+	display: flex;
+	align-items: center;
+}
+
+.hero-heading {
+	font-size: 48px;
+	font-weight: 800;
+}
+
+.hero-img {
+	width: 350px;
+}
+
+.btn {
+	color: var(--white);
+	padding: 5px 16px;
+	background-color: var(--bright-blue);
+	border-radius: 5px;
+}
+
+.hero-btn {
+	border: none;
+}
+
+#info,
+#quote {
+	color: var(--deep-blue);
+	/* text-align: center; */
+}
+
+#info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.info-heading {
+	font-size: 36px;
+	font-weight: 800;
+	margin-bottom: 64px;
+}
+
+.info {
+	display: flex;
+	gap: 32px;
+}
+
+.info-panel {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info-panel p {
+	text-align: center;
+	width: 150px;
+}
+
+.info-img {
+	width: 150px;
+	border-radius: 8px;
+	border: 4px solid var(--bright-blue);
+}
+
+#quote {
+	background-color: var(--light-grey);
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+}
+
+.quote-text {
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	margin: 0;
+}
+
+.quote-source {
+	align-self: flex-end;
+	margin-right: 70px;
+}
+
+.sign-up {
+	display: flex;
+	align-items: center;
+	padding: 32px;
+	border-radius: 5px;
+	background-color: var(--bright-blue);
+}
+
+.sign-up__item {
+	flex: 1;
+}
+
+.sign-up__item p {
+	margin: 0;
+}
+
+.sign-up__item.button {
+	display: flex;
+	justify-content: center;
+}
+
+.sign-up-btn {
+	border: solid white;
+}
